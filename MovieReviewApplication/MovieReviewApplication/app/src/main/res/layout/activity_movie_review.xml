@@ -1,0 +1,293 @@
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+<TableLayout
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="\t\t\t   "
+
+            />
+    <TextView
+        android:id="@+id/excellentID"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Excellent"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/goodID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Good"
+            />
+        <TextView
+            android:id="@+id/badID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Bad"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/whyID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Why?"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <TextView
+            android:id="@+id/plotID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Plot"
+            />
+
+        <CheckBox
+            android:id="@+id/plot_exc_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/plot_good_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/plot_bad_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            />
+
+        <EditText
+            android:hint="plot"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/editPlot_ID"
+            android:inputType="textMultiLine"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/actingID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Acting"
+            />
+
+        <CheckBox
+            android:id="@+id/acting_exc_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/acting_good_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/acting_bad_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            />
+
+        <EditText
+            android:textStyle="italic"
+            android:hint="acting"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/editActing_ID"
+            android:inputType="textMultiLine"
+            />
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/musicID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Music"
+            />
+
+        <CheckBox
+            android:id="@+id/music_exc_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/music_good_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/music_bad_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            />
+
+        <EditText
+            android:textStyle="italic"
+            android:hint="music"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/editMusic_ID"
+            android:inputType="textMultiLine"
+            />
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/specialEffectsID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Special Effects"
+            />
+
+        <CheckBox
+            android:id="@+id/spleffects_exc_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/spleffects_good_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+
+            />
+        <CheckBox
+            android:id="@+id/spleffects_bad_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            />
+
+        <EditText
+            android:textStyle="italic"
+            android:hint="epecial effects"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/editEffects_ID"
+            android:inputType="textMultiLine"
+            />
+
+
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Personal Opinion: "
+
+            />
+        <CheckBox
+            android:id="@+id/opinionLike_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Like: "
+
+            />
+        <CheckBox
+            android:id="@+id/opinionUnike_ID"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Don't Like: "
+
+
+            />
+
+
+
+
+
+    </TableRow>
+
+    <TableRow >
+
+
+
+    <RatingBar
+        android:id="@+id/Rating_bar_ID"
+        android:onClick="Rating_Bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        />
+
+
+    </TableRow>
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/Rating_NumStars_ID"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+
+
+</TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+</HorizontalScrollView>
