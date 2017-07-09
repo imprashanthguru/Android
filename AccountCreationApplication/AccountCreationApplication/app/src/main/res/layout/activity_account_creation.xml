@@ -1,0 +1,123 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"   >
+
+
+<LinearLayout
+
+    android:id="@+id/activity_account_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.rohit.accountcreationapplication.AccountCreationActivity">
+
+    <EditText
+        android:id="@+id/First_Name_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:inputType="textCapWords"
+
+        />
+    <EditText
+        android:id="@+id/Last_Name_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:inputType="textCapWords"
+
+        />
+
+    <TextView
+        android:id="@+id/Gender_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="16dp"
+        android:paddingLeft="2dp"
+        />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroupID"
+            >
+
+            <RadioButton
+                android:id="@+id/Male_RB_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="false"
+                android:paddingLeft="2dp"
+                               />
+            <RadioButton
+                android:id="@+id/Female_RB_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:checked="false"
+                android:paddingLeft="2dp"
+
+                />
+
+            </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/EmailId_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter E-Mail ID "
+        />
+
+    <EditText
+        android:id="@+id/Number_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/Password1_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password..."
+        />
+
+    <EditText
+        android:id="@+id/Password2_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password Again: "
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/Button_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:onClick="onButtonClick"
+        />
+<TextView
+    android:id="@+id/details_ID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="User Details: "
+    android:textStyle="bold"
+    android:padding="2dp"
+
+    />
+
+</LinearLayout>
+
+
+</ScrollView>
